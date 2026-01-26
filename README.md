@@ -12,3 +12,8 @@ to use AWS Bedrock for large language model responses.
 - Add prompt design and response evaluation
 - Containerize the application
 - Add CI/CD using GitHub Actions
+
+## AI Logic
+- Structured prompt creation with system instructions
+- Modular AI response generation
+- Ready for integration with AWS Bedrock
