@@ -1,14 +1,14 @@
 # GenAI Chatbot (Learning Project)
 
-This project is my starting point for building a GenAI chatbot.
-I am learning how chatbot logic works before integrating AWS Bedrock.
+This project demonstrates a basic chatbot architecture that will be extended
+to use AWS Bedrock for large language model responses.
 
-## Current Status
-- Basic command-line chatbot
-- User input and response loop
+## Current Features
+- Command-line chatbot interface
+- Modular response generation logic
 
-## Next Steps
-- Add AI logic
+## Planned Enhancements
 - Integrate Amazon Bedrock
+- Add prompt design and response evaluation
 - Containerize the application
-- Add CI/CD
+- Add CI/CD using GitHub Actions
