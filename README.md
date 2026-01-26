@@ -17,3 +17,8 @@ to use AWS Bedrock for large language model responses.
 - Structured prompt creation with system instructions
 - Modular AI response generation
 - Ready for integration with AWS Bedrock
+
+## Agent Memory
+- Maintains conversation history across turns
+- Builds prompts using prior user and assistant messages
+- Demonstrates agent-style context awareness
