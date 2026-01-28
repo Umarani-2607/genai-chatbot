@@ -35,3 +35,7 @@ containerization, and CI/CD best practices.
 
 ## 🏗 Architecture
 
+This project follows a simple agent-based architecture with clear separation
+between conversation handling, memory, prompt construction, and AI response generation.
+
+
