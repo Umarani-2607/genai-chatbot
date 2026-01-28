@@ -37,5 +37,20 @@ containerization, and CI/CD best practices.
 
 This project follows a simple agent-based architecture with clear separation
 between conversation handling, memory, prompt construction, and AI response generation.
+```
+User (CLI Input)
+↓
+Chat Loop (app.py)
+↓
+Conversation Memory (in-memory list)
+↓
+Prompt Builder (system instructions + context)
+↓
+AI Response Generator
+├─ Amazon Bedrock (Nova Lite) → when AWS credentials are available
+└─ Mock Response → local, Docker, and CI environments
+```
 
+This diagram shows how user input flows through the agent and how
+cloud dependencies are safely isolated.
 
