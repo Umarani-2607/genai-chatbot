@@ -23,4 +23,5 @@ jobs:
 
       - name: Run container smoke test
         run: |
-          docker run --rm genai-chatbot python app.py <<< "exit"
+          echo "exit" | docker run --rm -i genai-chatbot
+
