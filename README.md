@@ -1,24 +1,37 @@
-# GenAI Chatbot (Learning Project)
+# GenAI Chatbot (AI Agent)
 
-This project demonstrates a basic chatbot architecture that will be extended
-to use AWS Bedrock for large language model responses.
+A production-style AI agent built with Python that demonstrates
+prompt orchestration, conversational memory, cloud integration,
+containerization, and CI/CD best practices.
 
-## Current Features
-- Command-line chatbot interface
-- Modular response generation logic
+---
 
-## Planned Enhancements
-- Integrate Amazon Bedrock
-- Add prompt design and response evaluation
-- Containerize the application
-- Add CI/CD using GitHub Actions
+## 🚀 Features
 
-## AI Logic
-- Structured prompt creation with system instructions
-- Modular AI response generation
-- Ready for integration with AWS Bedrock
+- Conversational AI agent with memory
+- Structured prompt construction
+- Amazon Bedrock (Nova Lite) integration
+- Secure IAM-based access (no hardcoded credentials)
+- Graceful fallback for local/Docker environments
+- Dockerized application
+- CI/CD pipeline using GitHub Actions
 
-## Agent Memory
-- Maintains conversation history across turns
-- Builds prompts using prior user and assistant messages
-- Demonstrates agent-style context awareness
+---
+
+## 🧠 How It Works
+
+1. User input is received through a CLI interface
+2. Conversation history is stored in memory
+3. A structured prompt is built using:
+   - System instructions
+   - Conversation context
+   - Current user input
+4. The agent:
+   - Uses Amazon Bedrock if credentials are available
+   - Falls back to a mock response if running locally or in CI
+5. The response is returned to the user
+
+---
+
+## 🏗 Architecture
+
