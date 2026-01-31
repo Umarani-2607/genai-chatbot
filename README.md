@@ -1,3 +1,6 @@
+![CI](https://github.com/Umarani-2607/genai-chatbot/actions/workflows/docker-ci.yml/badge.svg)
+
+
 # GenAI Chatbot (AI Agent)
 
 A production-style AI agent built with Python that demonstrates
