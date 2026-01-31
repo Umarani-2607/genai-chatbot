@@ -4,6 +4,15 @@ A production-style AI agent built with Python that demonstrates
 prompt orchestration, conversational memory, cloud integration,
 containerization, and CI/CD best practices.
 
+## What This Project Demonstrates
+
+- Building a GenAI conversational agent with memory
+- Integrating managed LLM services using Amazon Bedrock
+- Secure cloud access using IAM (no hardcoded credentials)
+- Containerized deployment using Docker
+- CI/CD-friendly design with mock fallbacks
+- Production-style documentation and workflows
+
 ---
 
 ## 🚀 Features
@@ -54,6 +63,16 @@ AI Response Generator
 This diagram shows how user input flows through the agent and how
 cloud dependencies are safely isolated.
 
+## Project Structure
+```
+genai-chatbot/
+├── app.py # Application entry point
+├── Dockerfile # Container definition
+├── docs/ # Architecture and design documentation
+├── scripts/ # Helper scripts for common workflows
+├── README.md # Project overview
+```
+
 
 ## Helper Scripts
 
@@ -63,3 +82,8 @@ The `scripts/` directory contains helper scripts for common workflows:
 - `run_docker.sh` – Build and run the Docker container
 - `run_ci.sh` – Simulate the CI pipeline locally
 
+## Why This Matters
+
+This project focuses on building a GenAI system that is safe to run in
+local, CI/CD, and cloud environments. It emphasizes reliability,
+security, and clean separation of concerns rather than just model output.
