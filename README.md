@@ -54,3 +54,12 @@ AI Response Generator
 This diagram shows how user input flows through the agent and how
 cloud dependencies are safely isolated.
 
+
+## Helper Scripts
+
+The `scripts/` directory contains helper scripts for common workflows:
+
+- `run_local.sh` – Run the application locally
+- `run_docker.sh` – Build and run the Docker container
+- `run_ci.sh` – Simulate the CI pipeline locally
+
